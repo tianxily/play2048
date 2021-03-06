@@ -1,0 +1,268 @@
+Uri: https://play2048.co/
+File Name: C:\Downloaded Web Sites\play2048.co\index.htm
+Content Type: text/html
+
+Uri: https://www.ezoic.com/
+File Name: C:\Downloaded Web Sites\play2048.co\index-1.htm
+Content Type: text/html
+
+Uri: https://poki.com/
+File Name: C:\Downloaded Web Sites\play2048.co\index-2.htm
+Content Type: text/html
+
+Uri: https://play2048.co/style/main.css
+File Name: C:\Downloaded Web Sites\play2048.co\style\main.css
+Content Type: text/css
+
+Uri: https://play2048.co/style/fonts/clear-sans.css
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\clear-sans.css
+Content Type: text/css
+
+Uri: https://play2048.co/favicon.ico
+File Name: C:\Downloaded Web Sites\play2048.co\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://play2048.co/meta/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\play2048.co\meta\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://play2048.co/meta/apple-touch-startup-image-640x1096.png
+File Name: C:\Downloaded Web Sites\play2048.co\meta\apple-touch-startup-image-640x1096.png
+Content Type: image/png
+
+Uri: https://play2048.co/meta/apple-touch-startup-image-640x920.png
+File Name: C:\Downloaded Web Sites\play2048.co\meta\apple-touch-startup-image-640x920.png
+Content Type: image/png
+
+Uri: https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048
+File Name: C:\Downloaded Web Sites\play2048.co\store\apps\details.html
+Content Type: text/html
+
+Uri: https://play2048.co/privacy.html
+File Name: C:\Downloaded Web Sites\play2048.co\privacy.html
+Content Type: text/html
+
+Uri: https://poki.com/en/g/2048
+File Name: C:\Downloaded Web Sites\play2048.co\en\g\2048.html
+Content Type: text/html
+
+Uri: https://www.ezoic.com/what-is-ezoic/
+File Name: C:\Downloaded Web Sites\play2048.co\what-is-ezoic\index.htm
+Content Type: text/html
+
+Uri: https://c.amazon-adsystem.com/aax2/apstag.js
+File Name: C:\Downloaded Web Sites\play2048.co\aax2\apstag.js
+Content Type: application/javascript
+
+Uri: https://adservice.google.com/adsid/integrator.js?domain=play2048.co
+File Name: C:\Downloaded Web Sites\play2048.co\adsid\f.txt
+Content Type: application/javascript
+
+Uri: https://go.ezodn.com/hb/dall.js?b=amx,brightcom,conversant,criteo,districtm,districtmDMX,gumgum,ix,luponmedia,oftmedia,oneVideo,onemobile,onetag,pubmatic,pulsepoint,rhythmone,rubicon,sovrn,triplelift,undertone,unruly&cb=192-5-11
+File Name: C:\Downloaded Web Sites\play2048.co\hb\dall.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/ezossp/https/www.googletagmanager.com/gtag/js?id=UA-42620757-2&screx=1&sxcb=2a
+File Name: C:\Downloaded Web Sites\play2048.co\ezossp\https\www.googletagmanager.com\gtag\js.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/meta/icon_pp.svg
+File Name: C:\Downloaded Web Sites\play2048.co\meta\icon_pp.svg
+Content Type: image/svg+xml
+
+Uri: https://www.paypalobjects.com/en_US/i/scr/pixel.gif
+File Name: C:\Downloaded Web Sites\play2048.co\en_US\i\scr\pixel.gif
+Content Type: image/gif
+
+Uri: https://play2048.co/meta/icon_bitcoin.svg
+File Name: C:\Downloaded Web Sites\play2048.co\meta\icon_bitcoin.svg
+Content Type: image/svg+xml
+
+Uri: https://play2048.co/js/bind_polyfill.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\bind_polyfill.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/classlist_polyfill.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\classlist_polyfill.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/animframe_polyfill.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\animframe_polyfill.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/keyboard_input_manager.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\keyboard_input_manager.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/html_actuator.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\html_actuator.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/grid.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\grid.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/tile.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\tile.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/local_storage_manager.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\local_storage_manager.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/game_manager.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\game_manager.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/js/application.js
+File Name: C:\Downloaded Web Sites\play2048.co\js\application.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/detroitchicago/augusta.js?cb=4
+File Name: C:\Downloaded Web Sites\play2048.co\detroitchicago\augusta.js
+Content Type: application/javascript
+
+Uri: https://pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.play2048_co,DomainId.218709
+File Name: C:\Downloaded Web Sites\play2048.co\pixel\p-31iz6hfFutd16.gif
+Content Type: image/gif
+
+Uri: https://marketingplatform.google.com/about/enterprise/
+File Name: C:\Downloaded Web Sites\play2048.co\about\enterprise\index.htm
+Content Type: text/html
+
+Uri: https://www.apple.com/itunes/
+File Name: C:\Downloaded Web Sites\play2048.co\itunes\index.htm
+Content Type: text/html
+
+Uri: https://play.google.com/store
+File Name: C:\Downloaded Web Sites\play2048.co\store.html
+Content Type: text/html
+
+Uri: https://play2048.co/style/fonts/ClearSans-Light-webfont.eot
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Light-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Light-webfont.eot?
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Light-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Light-webfont.svg
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Light-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://play2048.co/style/fonts/ClearSans-Light-webfont.woff
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Light-webfont.woff
+Content Type: font/woff
+
+Uri: https://play2048.co/style/fonts/ClearSans-Regular-webfont.eot
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Regular-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Regular-webfont.eot?
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Regular-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Regular-webfont.svg
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Regular-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://play2048.co/style/fonts/ClearSans-Regular-webfont.woff
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Regular-webfont.woff
+Content Type: font/woff
+
+Uri: https://play2048.co/style/fonts/ClearSans-Bold-webfont.eot
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Bold-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Bold-webfont.eot?
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Bold-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://play2048.co/style/fonts/ClearSans-Bold-webfont.svg
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Bold-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://play2048.co/style/fonts/ClearSans-Bold-webfont.woff
+File Name: C:\Downloaded Web Sites\play2048.co\style\fonts\ClearSans-Bold-webfont.woff
+Content Type: font/woff
+
+Uri: https://apps.apple.com/us/app/2048-by-gabriele-cirulli/id868076805
+File Name: C:\Downloaded Web Sites\play2048.co\us\app\2048-by-gabriele-cirulli\id868076805.html
+Content Type: text/html
+
+Uri: https://apps.apple.com/us/app/1024/id823499224
+File Name: C:\Downloaded Web Sites\play2048.co\us\app\1024\id823499224.html
+Content Type: text/html
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\play2048.co\bootstrap\3.3.4\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://play2048.co/?ez_force_cookie_consent=1
+File Name: C:\Downloaded Web Sites\play2048.co\index-3.htm
+Content Type: text/html
+
+Uri: https://play2048.co/EzoicUserDataProtection.html
+File Name: C:\Downloaded Web Sites\play2048.co\EzoicUserDataProtection.html
+Content Type: text/html
+
+Uri: https://g.ezoic.net/privacy/play2048.co/annualRequestSummary
+File Name: C:\Downloaded Web Sites\play2048.co\privacy\play2048.co\annualRequestSummary.html
+Content Type: text/html
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\ajax\libs\jquery\1.11.2\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\bootstrap\3.3.4\js\bootstrap.min.js
+Content Type: text/javascript
+
+Uri: https://go.ezodn.com/hb/dall.js?b=districtm,oftmedia,sovrn&cb=192-5-11
+File Name: C:\Downloaded Web Sites\play2048.co\hb\dall-1.js
+Content Type: application/javascript
+
+Uri: https://www.ezojs.com/ezoic/ezd.js
+File Name: C:\Downloaded Web Sites\play2048.co\ezoic\ezd.js
+Content Type: application/javascript
+
+Uri: https://play2048.co/utilcave_com/inc/ezcl.webp?cb=4
+File Name: C:\Downloaded Web Sites\play2048.co\utilcave_com\inc\ezcl.webp.js
+Content Type: application/javascript
+
+Uri: https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\play2048.co\bootstrap\4.1.0\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css
+File Name: C:\Downloaded Web Sites\play2048.co\1.10.16\css\jquery.dataTables.min.css
+Content Type: text/css
+
+Uri: https://code.jquery.com/jquery-3.3.1.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\jquery-3.3.1.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\ajax\libs\popper.js\1.14.0\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\bootstrap\4.1.0\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\1.10.16\js\jquery.dataTables.min.js
+Content Type: application/javascript
+
+Uri: https://code.createjs.com/createjs-2015.11.26.min.js
+File Name: C:\Downloaded Web Sites\play2048.co\createjs-2015.11.26.min.js
+Content Type: text/javascript
+
+Uri: https://play2048.co/utilcave_com/ezoic-loading.js
+File Name: C:\Downloaded Web Sites\play2048.co\utilcave_com\ezoic-loading.js
+Content Type: application/javascript
+
+Uri: https://40cupx20bt643wowwz361l9h-wpengine.netdna-ssl.com/wp-content/uploads/2016/05/ezoic-google.png
+File Name: C:\Downloaded Web Sites\play2048.co\wp-content\uploads\2016\05\ezoic-google.png
+Content Type: image/png
+
