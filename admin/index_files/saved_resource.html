@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://textolite.ru/demo/textolite/index.html -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="/demo/">--><base href=".">
+
+	<title>Textolite — система управления статическим сайтом</title>
+	
+	
+
+	<style>
+
+		*{margin:0; padding:0}
+		ul{margin-left:14px}
+		p,ul,dd,h2{margin-bottom:14px}
+		a{color:#adc8fe; text-decoration:none}
+		a:visited{color:#7f98cb}
+		a:hover{color:#adc8fe; text-decoration:underline}
+		a:active{color:#6ed76e}
+		header,footer,main{display:block; clear:both}
+		h1{margin:34px 0 -2px -2px; font-size:50px; font-weight:normal; letter-spacing:-3px; color:#d6d7dc}
+		h2{font-size:16px; font-weight:normal; color:#6ed76e}
+		html{font-size:14px; line-height:26px; font-family:Verdana; color:#d6d7dc; background-color:#5c5c5f}
+		body{width:97%; min-width:320px; max-width:900px; margin:20px auto}
+		footer{margin-left:-1px; color:#a1a1a4}
+		header ul, footer ul{float:right; margin:4px 10px 18px 0; list-style-type:none}
+		header li, footer li{float:left; padding:0 8px; border-left:1px solid #828286; line-height:18px}
+		footer ul:last-child{float:none; height:28px; margin-top:-10px}
+		li:first-child{padding-left:0; border:none}
+		header p{float:left; color:#a1a1a4}
+		code{font-size:17px; font-family:Courier New}
+		main ol{list-style-type:none; margin-top:32px}
+		main ol li{float:left; margin:-9px 12px 20px 0}
+		main ol li img{margin-bottom:-6px; border:1px solid #a1a1a4}
+		main ol + h2{clear:both}
+		@media(max-width:900px){header ul{clear:both; float:left}}
+
+	</style>
+
+<style>@keyframes textolite-drop{0%{opacity:0.6;}49%{opacity:0.6;}50%{opacity:1;}99%{opacity:1;}}[data-textolite-string]{outline:none;font-style:inherit;cursor:text}[data-textolite-focus]{outline:4px solid #f2ca00 !important;outline-offset:8px}[data-textolite-disabled]{outline-color:#f00 !important}[data-textolite-dragover]{outline:4px solid #adc8fe;outline-offset:-4px}[data-textolite-drop]{animation:textolite-drop 70ms infinite linear}[data-textolite-object]{display:block;position:relative;background-color:#fff;opacity:0;z-index:1}</style></head>
+<body>
+
+	<header>
+
+		<h1><img src="./textolite-logo.png" alt="Textolite"></h1>
+		<p><edit data-textolite-string="true" contenteditable="true">Система управления статическим сайтом</edit></p>
+
+		<ul>
+		<li><a><edit data-textolite-string="true" contenteditable="true">Расширенная версия</edit></a></li>
+		<li><a><edit data-textolite-string="true" contenteditable="true">Онлайн демоверсия</edit></a></li>
+		<li><a><edit data-textolite-string="true" contenteditable="true">Скачать версию 2.12</edit></a></li>
+		</ul>
+
+	</header>
+
+	<main>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Система для редактирования сайтов, основанных на статических HTML-файлах.
+		Ориентирована на небольшие сайты, требующие периодического обновления.
+		Все изменения на сайте сохраняются прямо в HTML-файлах, что избавляет от необходимости иметь сервер базы данных.
+		Не требует какой-либо интеграции с сайтом, достаточно разместить каталог с системой в корне сайта.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Основной особенностью Textolite является визуальный редактор с возможностью редактировать содержимое сайта
+		без каких-либо форм ввода. Для более серьезных изменений предусмотрен редактор исходного кода
+		с подсветкой синтаксиса и нумерацией строк. Есть также удобный файловый менеджер
+		с функцией многопоточной пакетной загрузки файлов на сервер.</edit></p>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Редактирование картинок</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">В расширенной версии появилась возможность менять HTML-картинки перетаскиванием файла в окно браузера,
+		а также удалять, клонировать и перемещать элементы с HTML-картинками.
+		Здесь можно попробовать эти функции в действии. В демоверсии заливка картинок на сервер отключена,
+		но можно увидеть общий принцип работы.</edit></p>
+
+		<ol>
+		<li><img src="./1.png" alt="1"></li>
+		<li><img src="./2.png" alt="2"></li>
+		<li><img src="./3.png" alt="3"></li>
+		<li><img src="./4.png" alt="4"></li>
+		</ol>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Лицензионное соглашение</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Пользователь имеет право использовать систему по прямому назначению на любых проектах,
+		в том числе коммерческих. Допускается создание альтернативных ссылок на оригинальный архив с системой
+		или прямая передача третьим лицам. Пользователь не имеет право:</edit></p>
+
+		<ul>
+		<li><edit data-textolite-string="true" contenteditable="true">Вносить какие-либо изменения в исходный код системы (textolite.php, textolite.js, textolite.css).</edit></li>
+		<li><edit data-textolite-string="true" contenteditable="true">Распространять или использовать модифицированные копии системы.</edit></li>
+		<li><edit data-textolite-string="true" contenteditable="true">Создавать собственные продукты, основанные на исходном коде системы.</edit></li>
+		<li><edit data-textolite-string="true" contenteditable="true">Распространять или использовать исходные файлы или какие-либо части системы отдельно.</edit></li>
+		<li><edit data-textolite-string="true" contenteditable="true">Переименовывать, изменять или удалять копирайты системы.</edit></li>
+		</ul>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Использование системы означает полное согласие с условиями данного соглашения.</edit></p>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Системные требования</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Для нормальной работы системы нужен веб-сервер Apache с PHP версии не ниже 5.2 и действующим модулем mod_rewrite.
+		После дополнительной настройки система может работать под Nginx и IIS,
+		а также без модуля mod_rewrite и его аналогов. Если на сервере есть модуль mod_pagespeed, его нужно отключить.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Системе нужны права на запись для своего каталога и для всех файлов сайта.
+		Чтобы не было проблем с отображением нелатинских символов, все редактируемые файлы должны быть в кодировке utf-8.
+		Имена файлов и каталогов также должны быть в кодировке utf-8, если в них есть нелатинские символы (для PHP 7 неактуально).</edit></p>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Установка</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Необходимо распаковать скачанный архив в корневой каталог сайта.
+		После распаковки в корне сайта должен появиться каталог textolite.
+		Далее через адресную строку браузера нужно перейти в каталог системы http://адрес_сайта/textolite/.
+		Если все сделано правильно, система выведет форму авторизации. Пароль по умолчанию "admin".
+		После первого входа пароль необходимо изменить в настройках системы.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Каталог системы можно переименовывать. Можно устанавливать одновременно несколько систем.
+		Можно устанавливать отдельную систему для каждого раздела сайта, систему необязательно устанавливать в корне сайта.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Для запуска системы под Nginx без Apache нужно настроить сервер по параметрам из файла .htaccess.
+		Файл .htaccess в этом случае можно удалить. Для стандартной установки можно использовать следующий код:</edit></p>
+
+		<p><code><edit data-textolite-string="true" contenteditable="true">index textolite.php;</edit><br><edit data-textolite-string="true" contenteditable="true">if (!-e $request_filename) {rewrite ^/textolite/(.*)$
+		/textolite/textolite.php?q=$1}</edit><br><edit data-textolite-string="true" contenteditable="true">location ~ \.(ini|log)$ {deny all;}</edit></code></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Для запуска системы под IIS нужно создать в каталоге системы файл web.config по параметрам из файла .htaccess.
+		Файл .htaccess в этом случае можно удалить. В большинстве случаев должен подойти
+		</edit><a><edit data-textolite-string="true" contenteditable="true">готовый web.config</edit></a><edit data-textolite-string="true" contenteditable="true">.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Для запуска системы на любом сервере без файла .htaccess нужно переименовать файл textolite.php в index.php,
+		а файл .htaccess удалить. В этом случае нужно закрывать прямой доступ к ini-файлам каким-либо иным способом.</edit></p>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Полезные советы</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Если сайт будут редактировать несколько человек, можно установить для каждого отдельную систему.
+		В этом случае у всех будут отдельные настройки, пароль, страница входа.
+		Есть также возможность разграничения прав между такими пользователями. В файле conf.ini есть параметр </edit><code><edit data-textolite-string="true" contenteditable="true">allowed_ext</edit></code><edit data-textolite-string="true" contenteditable="true">,
+		в котором можно перечислить расширения файлов, к которым разрешен доступ из этой системы.</edit></p>
+
+		<p><edit data-textolite-string="true" contenteditable="true">На некоторых сайтах встроенные скрипты могут мешать установке фокуса на элементах в визуальном редакторе,
+		если они привязаны к левому клику. Например, при попытке установить фокус появляется всплывающее окно
+		или какая-нибудь анимация, которая в итоге мешает редактированию. В таких случаях можно ставить фокус средней кнопкой мыши.
+		Клик средней кнопкой мыши блокирует все события сайта, что можно использовать для обхода таких скриптов.</edit></p>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Часто задаваемые вопросы</edit></h2>
+
+		<dl>
+		<dt><edit data-textolite-string="true" contenteditable="true">1. Как восстановить забытый пароль?</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Восстановить доступ в случае утраты пароля можно переустановкой системы. Для этого нужно иметь доступ к серверу.
+		Хеш пароля хранится в файле conf.ini. Если заменить файлы системы новыми из архива, пароль сбросится на стандартный "admin".
+		На работе сайта данная процедура никак не отразится.</edit></dd><dd>
+
+		</dd><dt><edit data-textolite-string="true" contenteditable="true">2. Что означает сообщение "Нет прав на запись в файл"?</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Некоторые хостинг-провайдеры по умолчанию ограничивают права скриптов на запись в файл.
+		В этом случае права доступа нужно настраивать вручную через панель управления хостингом или FTP-клиент.
+		Инструкции по изменению прав доступа можно найти либо в интернете, либо в разделах помощи на сайте своего хостинг-провайдера.</edit></dd><dd>
+		</dd></dl>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">Настройки</edit></h2>
+
+		<p><edit data-textolite-string="true" contenteditable="true">Технически все настройки хранятся в файле conf.ini. Файл имеет стандартный INI-синтаксис.
+		Панель настроек в интерфейсе системы в основном просто перезаписывает содержимое этого файла.
+		Через интерфейс можно менять не все существующие настройки, некоторые параметры можно менять только ручным редактированием этого файла.
+		Есть также исключительно технические параметры, не предназначенные для ручного редактирования.</edit></p>
+
+		<dl>
+		<dt><code><edit data-textolite-string="true" contenteditable="true">auth_error_limit</edit></code><edit data-textolite-string="true" contenteditable="true"> (Попыток авторизации с неверным паролем)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Ограничивает максимально допустимое количество ошибок при введении пароля.
+		Если количество ошибок с одного IP-адреса превышает это значение,
+		пользователь блокируется на период, который можно настроить в следующем параметре (</edit><code><edit data-textolite-string="true" contenteditable="true">auth_lockout_duration</edit></code><edit data-textolite-string="true" contenteditable="true">).</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">auth_lockout_duration</edit></code><edit data-textolite-string="true" contenteditable="true"> (Длительность блокировки в часах)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Отвечает за длительность блокировки пользователей,
+		превысивших максимально допустимое количество ошибок при введении пароля (</edit><code><edit data-textolite-string="true" contenteditable="true">auth_error_limit</edit></code><edit data-textolite-string="true" contenteditable="true">).
+		После истечения указанного периода пользователь получает одну дополнительную попытку авторизации.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">auth_session_reset</edit></code><edit data-textolite-string="true" contenteditable="true"> (Завершение сессии после бездействия в минутах)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Ограничивает время жизни сессии после потери системой возможности поддерживать соединение с сервером.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">logout_to_site</edit></code><edit data-textolite-string="true" contenteditable="true"> (Перенаправлять на сайт после выхода из системы)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">В случае включения выход из системы будет сопровождаться перенаправлением пользователя
+		на сайт по адресу последней редактируемой страницы или файла.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">site_scripts</edit></code><edit data-textolite-string="true" contenteditable="true"> (Включить скрипты сайта во время редактирования)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Скрипты сайта могут мешать редактированию некоторых элементов в визуальном редакторе.
+		Отключение скриптов может сделать такие элементы доступными для визуального редактирования.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">site_styles</edit></code><edit data-textolite-string="true" contenteditable="true"> (Включить стили сайта во время редактирования)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Стили сайта могут мешать редактированию некоторых элементов в визуальном редакторе.
+		Отключение стилей может помочь добраться до таких элементов в визуальном редакторе.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">image_rewriting</edit></code><edit data-textolite-string="true" contenteditable="true"> (Перезаписывать старый файл, если имена файлов совпадают) (расширенная версия)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Данная опция контролирует функцию замены картинок перетаскиванием файла в окно браузера.
+		В случае включения система будет автоматически перезаписывать файл,
+		имя которого совпадает с именем вставляемой картинки. В случае отключения новый файл переименовывается.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">link_replacing</edit></code><edit data-textolite-string="true" contenteditable="true"> (Автоматически менять адреса ссылок у картинок-ссылок) (расширенная версия)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Опция определяет поведение всех функций замены картинок перетаскиванием на картинках-ссылках.
+		В случае включения система будет вместе с картинкой менять адрес ссылки на адрес вставленного файла-картинки,
+		но только в тех случаях, когда существующая ссылка так же имеет адрес файла-картинки.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">name_correction</edit></code><edit data-textolite-string="true" contenteditable="true"> (Удалять нелатинские символы в именах вставляемых картинок) (расширенная версия)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Опция контролирует функцию замены картинок перетаскиванием файла в окно браузера.
+		В случае включения система будет автоматически убирать нелатинские символы в именах вставляемых файлов-картинок.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">code_redraw_delay</edit></code><edit data-textolite-string="true" contenteditable="true"> (Обновлять код после бездействия в миллисекундах)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Когда пользователь вводит новый код в редакторе исходного кода, система ждет паузу в процессе ввода,
+		чтобы проверить и оформить новый код. Данный параметр определяет, какой должна быть пауза,
+		чтобы система могла начать переоформление. Чем меньше его значение, тем чаще будет переоформляться новый код в процессе ввода.
+		Увеличение значения может заметно снизить нагрузку на браузер.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">code_undo_limit</edit></code><edit data-textolite-string="true" contenteditable="true"> (Количество шагов для отката изменений через Ctrl+Z)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Определяет максимальную глубину отката изменений в редакторе исходного кода через Ctrl+Z.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">code_highlighting</edit></code><edit data-textolite-string="true" contenteditable="true"> (Включить подсветку синтаксиса и нумерацию строк)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Подсветка синтаксиса и нумерация строк облегчает редактирование кода.
+		Отключение может заметно снизить нагрузку на браузер.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">folder_size</edit></code><edit data-textolite-string="true" contenteditable="true"> (Отображать размер каталогов в файловом менеджере)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Получение данных о размере каталогов может замедлять работу файлового менеджера на больших сайтах со сложными структурами.
+		На таких сайтах можно отключить отображение размера каталогов.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">default_file</edit></code><edit data-textolite-string="true" contenteditable="true"> (Главная страница или файл сайта)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать имя реально существующего в корне сайта файла.
+		Система будет открывать в редакторе этот файл в качестве главной страницы сайта,
+		а также во всех случаях, когда файл для редактирования не выбран или не может быть открыт.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">recovery_points</edit></code><edit data-textolite-string="true" contenteditable="true"> (Максимальное количество точек восстановления) (расширенная версия)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Параметр ограничивает максимальное количество точек восстановления, которые система может хранить на сервере.
+		Если количество точек превысит его значение, каждая новая точка будет перезаписывать одну самую старую из всех существующих.
+		Нулевое значение полностью отключает систему резервного копирования и восстановления.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">update_final</edit></code><edit data-textolite-string="true" contenteditable="true"> (Сообщать о появлении новых версий системы)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">В случае включения система будет сообщать о появлении новых версий системы.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">update_beta</edit></code><edit data-textolite-string="true" contenteditable="true"> (Сообщать о появлении новых beta-версий системы)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">В случае включения система будет сообщать о появлении новых beta-версий системы.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">lang</edit></code><edit data-textolite-string="true" contenteditable="true"> (Язык интерфейса)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать список двухбуквенных кодов языка (ISO 639-1),
+		которые имеют соответствующую секцию с переводом в файле lang.ini.
+		Язык из этого списка, совпадающий с языком браузера, автоматически включается системой в качестве языка интерфейса,
+		во всех остальных случаях включается первый язык из этого списка.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">auth_bot_filter</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">В случае включения система будет блокировать все запросы, имеющие типичные признаки ботов.
+		Отключать имеет смысл только в случае каких-либо проблем с данным механизмом.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">document_root</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Если сервер возвращает неправильный DOCUMENT_ROOT и нет возможности на это повлиять со стороны сервера,
+		можно указать правильный DOCUMENT_ROOT с помощью этого параметра.
+		В этом случае DOCUMENT_ROOT сервера будет игнорироваться системой.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">url_rewrite</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">В системе есть механизм автоматического определения возможности строить упрощенные пути в адресной строке
+		в соответствии с правилами модуля mod_rewrite. Если добавить этот параметр,
+		решение об использовании упрощенных путей будет приниматься в соответствии с его значением.
+		Добавлять имеет смысл только в случае каких-либо проблем с данным механизмом.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">editable_attributes</edit></code><edit data-textolite-string="true" contenteditable="true"> (расширенная версия)</edit></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать список HTML-атрибутов, которые должны быть доступны для редактирования в визуальном редакторе.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">editable_ext</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать список расширений файлов, которые система должна открывать в редакторе
+		в случае выбора этого файла в файловом менеджере.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">visual_ext</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать список расширений файлов, которые содержат HTML-код.
+		Для таких файлов будет доступно визуальное редактирование.</edit></dd>
+
+		<dt><code><edit data-textolite-string="true" contenteditable="true">allowed_ext</edit></code></dt>
+		<dd><edit data-textolite-string="true" contenteditable="true">Значение должно содержать список расширений файлов, к которым разрешен доступ из этой системы.
+		Все операции с файлами, расширение которых не указано в этом списке, будут запрещены.
+		Отсутствие значения соответствует свободному доступу ко всем файлам.
+		Присутствие в этом списке расширений исполняемых на сервере файлов,
+		которые могут самостоятельно менять другие файлы, создает условия,
+		соответствующие полному доступу ко всем файлам.</edit></dd>
+		</dl>
+
+		<h2><edit data-textolite-string="true" contenteditable="true">История изменений</edit></h2>
+
+		<dl>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.12/12.08.2018</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Переписана серверная часть системы, решено несколько комплексных проблем, улучшен файловый менеджер.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность отключить механизм получения информации о размере каталогов в файловом менеджере.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность указать в conf.ini открываемые в визуальном редакторе расширения файлов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм принудительного обновления кэша страниц после изменения для некоторых браузеров.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько проблем с функцией редактирования атрибутов (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с обработкой некоторых специфических символов (эмодзи).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с обработкой символических ссылок в структуре файлов сайта.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема в механизме выбора случайного файла для редактирования.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема в работе некоторых механизмов сразу после активации (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено множество мелких проблем.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.11/10.12.2017</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать атрибуты в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать элементы форм, svg, canvas, audio, video и другие (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм автоматической корректировки имен вставляемых картинок (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с заменой видео, ссылка которого имеет параметры (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием картинок, имена которых имеют символы пробела (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием строк, содержащих некоторые специфичные символы.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием элементов, HTML-разметка которых написана в верхнем регистре.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием некоторых сочетаний строчных элементов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с установкой системы в каталог с кириллическим названием.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено множество мелких проблем.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.10/03.09.2017</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность обновлять и активировать систему через защищенное HTTPS-соединение.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена поддержка атрибутов srcset и sizes для функций замены картинок (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена система активации, изменение каталога системы больше не сбрасывает активацию (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен упаковщик исходного кода, уменьшен общий размер системы.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Изменена последовательность загрузки скриптов, панель теперь должна загружаться быстрей и равномерней.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько проблем в механизмах манипуляции разметкой (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с пропаданием участков кода при визуальном редактировании в некоторых ситуациях.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с появлением служебных тегов системы в коде страниц в некоторых ситуациях.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько проблем в работе системы на серверах с PHP 7.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено множество мелких проблем.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.09/09.04.2017</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность отключать скритпы и стили сайта во время визуального редактирования.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность вручную отключать подсветку синтаксиса и нумерацию строк в редакторе исходного кода.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность отключать сообщения о новых версиях в настройках системы.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность скрывать группы настроек и восстанавливать настройки по умолчанию.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм активации расширенной версии, привязка доменов теперь происходит с подтверждением.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм взаимодействия с пользователем по проблеме динамических элементов в визуальном редакторе.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм взаимодействия с пользователем по проблеме неправильного DOCUMENT_ROOT на сервере.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность указать системе свой DOCUMENT_ROOT в файле conf.ini.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность использовать систему без mod_rewrite и аналогов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено множество различных проблем.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.08/18.09.2016</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлены всплывающие подсказки с подробным описанием параметров на панели настроек.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм автоматической сортировки файлов в файловом менеджере.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена совместимость визуального редактора с некоторыми HTML-конструкциями.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшены некоторые моменты в функции замены картинок перетаскиванием (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько проблем с системой резервного копирования (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Изменен блок с информацией о системе на панели.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.07/24.07.2016</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена система резервного копирования и отката последних изменений (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность менять iframe-видео перетаскиванием ссылки с видео-хостингов (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность менять картинки перетаскиванием с других сайтов (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм обновления кэша картинок после замены с перезаписью (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать PHP-файлы со статичным HTML-кодом в визуальном редакторе.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность настроить в conf.ini разрешенные для редактирования расширения файлов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность настроить в conf.ini открываемые в редакторе расширения файлов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм автоматической блокировки ботов на странице авторизации.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено множество различных проблем.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.06/20.03.2016</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать элементы c iframe-вставками (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность автоматически менять адреса ссылок у картинок-ссылок (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность настроить перезапись картинок, если имена файлов совпадают (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлено автоматическое изменение атрибута alt при перетаскивании картинок (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с редактированием картинок с определенным сочетанием атрибутов (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена подсветка исходного кода выделенного в визуальном редакторе элемента (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность настроить перенаправление на сайт после выхода из системы.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с запуском системы на некоторых конфигурациях сервера.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с запуском системы под IIS.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.05/17.01.2016</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Переписан визуальный редактор, теперь возможно редактирование любого HTML-кода любого качества.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена поддержка мобильных устройств, создан адаптивный интерфейс.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность ставить фокус средней кнопкой мыши для обхода всплывающих окон и тому подобного.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлено перенаправление на ближайшую доступную страницу, когда главная страница отсутствует.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена автоматическая проверка прав на запись в файл.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с отображением тега script в редакторе исходного кода.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.04/08.11.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм автооптимизации редактора исходного кода на случай редактирования больших файлов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлены новые настройки для режима автоматической оптимизации редактора исходного кода.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность изменить доступное количество шагов для отката изменений через Ctrl+Z.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с установкой фокуса на картинки-ссылки в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько мелких проблем с перетаскиванием элементов в визуальном редакторе (расширенная версия).</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.03/27.09.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность откатывать изменения в редакторе исходного кода сочетанием клавиш Ctrl+Z.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с передачей исходного кода при переключении режимов на некоторых конфигурациях сервера.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием некоторых XHTML-элементов в визуальном редакторе.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлено несколько мелких проблем, улучшена оптимизация редактора исходного кода.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена форма оплаты на сайте, теперь на почту должно приходить уведомление.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.02/12.07.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность менять картинки местами перетаскиванием в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен интерфейс функции замены картинок в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность изменить через панель настроек стартовый файл для редактирования.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с редактированием строк с HTML-мнемониками в визуальном редакторе.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с появлением лишних пробелов в некоторых ситуациях в Opera/Presto.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена совместимость визуального редактора с некоторыми сайтами.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.01/07.06.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать элементы с картинками в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность заменять картинки перетаскиванием файла в окно браузера (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность настроить функцию автозавершения сессии.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность отключить уведомление о новой версии.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с распознаванием HTML-разметки некоторых сайтов.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">2.00/19.04.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность удалять, клонировать и перемещать блоки в визуальном редакторе (расширенная версия).</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшены ключевые механизмы системы, переписан визуальный редактор.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать файлы с расширением xml.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с сохранением HTML-мнемоников в визуальном редакторе.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена работа системы на старых версиях Apache и PHP.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена английская версия сайта.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">1.05/25.01.2015</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена панель настроек, появились новые параметры.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм сохранения скриптов для серверов с фильтрацией или модификацией запросов к серверу.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с запуском системы на некоторых конфигурациях Nginx.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с сохранением страницы в браузере Firefox.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшена совместимость с некоторыми CSS-фреймворками.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">1.04/14.12.2014</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность редактировать файлы с расширением php, js, css, shtml, shtm, stm.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Улучшен механизм подсветки синтаксиса. Созданы отдельные цветовые схемы для каждого типа файлов.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность обновлять систему одним кликом через веб-интерфейс.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Создан конфигурационный файл lang.ini для создания переводов интерфейса системы на другие языки.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность сохранять изменения сочетанием клавиш Ctrl+S.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с сохранением страницы на некоторых конфигурациях сервера.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">1.03/09.11.2014</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена возможность вставлять символ табуляции клавишей Tab в редакторе исходного кода.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с путями, из-за которой система не работала на некоторых конфигурациях сервера.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлена проблема с появлением неверных ссылок в файловом менеджере.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлены различные ошибки.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">1.02/02.11.2014</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлен механизм автоматического конвертирования страниц из кодировки windows-1251 в utf-8.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена поддержка страниц с расширением htm и названиями в верхнем регистре.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Добавлена поддержка файлов с кириллическими названиями в кодировке utf-8.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлены все известные проблемы с файловым менеджером и редактором исходного кода.</edit></li>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлены различные ошибки.</edit></li>
+			</ul>
+
+		</dd>
+		<dt><edit data-textolite-string="true" contenteditable="true">1.01/26.10.2014</edit></dt>
+		<dd>
+
+			<ul>
+			<li><edit data-textolite-string="true" contenteditable="true">Исправлены различные ошибки.</edit></li>
+			</ul>
+
+		</dd>
+		</dl>
+
+	</main>
+
+	<footer>
+
+		<p><edit data-textolite-string="true" contenteditable="true">© 2014–2021 Команда разработчиков Textolite.</edit></p>
+
+		<ul>
+		<li><a><edit data-textolite-string="true" contenteditable="true" disabled="true">info@textolite.ru</edit></a></li>
+		<li><a><edit data-textolite-string="true" contenteditable="true" disabled="true">bug@textolite.ru</edit></a></li>
+		</ul>
+
+	</footer>
+
+	<script>var u=document.querySelector('footer p+ul');
+	u.innerHTML=u.innerHTML.replace(/(\w+)\[аt\](\w+)\[dоt\](\w+)/g,'<a href="mailto:$1@$2\.$3">$1@$2\.$3</a>')</script>
+
+
+</body></html>
